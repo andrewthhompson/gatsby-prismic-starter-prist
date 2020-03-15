@@ -82,16 +82,20 @@ const ProjectCardContent = styled("div")`
 `
 
 const ProjectCardCategory = styled("h6")`
-    font-weight: 600;
+    font-family: campaign;
+    font-weight: 700;
     color: ${colors.grey600};
 `
 
 const ProjectCardTitle = styled("h3")`
+    font-family: campaign;
     margin-bottom: 0.5em;
     margin-top: 0.5em;
 `
 
 const ProjectCardBlurb = styled("div")`
+    font-family: campaign;
+    font-weight: 300;
     margin-bottom: 0.5em;
     margin-top: 0.5em;
     margin-bottom: 5em;
@@ -102,7 +106,8 @@ const ProjectCardBlurb = styled("div")`
 `
 
 const ProjectCardAction = styled("div")`
-    font-weight: 600;
+    font-family: campaign;
+    font-weight: 500;
     text-decoration: none;
     color: currentColor;
     transition: all 150ms ease-in-out;
